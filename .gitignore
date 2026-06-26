@@ -1,0 +1,20 @@
+.gitignore
+*.asv
+*.autosave
+*.slxc
+*.mex*
+*.p
+*.log
+
+# Simulink cache
+slprj/
+simulink_cache/
+
+# MATLAB project metadata
+resources/project/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
