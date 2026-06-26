@@ -1,20 +1,57 @@
 .gitignore
+
+% MATLAB Files
+*.m~
 *.asv
-*.autosave
-*.slxc
 *.mex*
-*.p
+*.slxc
+*.slx~
+
+% Simulink cache
+slprj/
+sfprj/
 *.log
 
-# Simulink cache
-slprj/
-simulink_cache/
+% Simulink model cache
+ModelAdvisor/
 
-# MATLAB project metadata
-resources/project/
+% MATLAB autosave
+*_autosave.m
 
-# macOS
+% System files
 .DS_Store
-
-# Windows
 Thumbs.db
+
+% Temporary files
+*.tmp
+*.bak
+*.backup
+
+% IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+% Python cache
+__pycache__/
+*.pyc
+
+% Large data files (optional - uncomment if needed)
+# *.mat
+# *.dat
+# *.bin
+
+% Build artifacts
+build/
+dist/
+*.o
+*.a
+*.so
+
+% Documentation
+# *.pdf (keep PDFs generated)
+
+% Cache and temp
+*.cache
+.cache/
